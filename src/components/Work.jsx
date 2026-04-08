@@ -1,7 +1,7 @@
 import React from "react";
-import project3 from "../assets/project.jpg";
+import project3 from "../assets/project3.png";
 import project2 from "../assets/project2.jpg";
-import project1 from "../assets/project3.jpg";
+import project1 from "../assets/project1.jpg";
 import { motion } from "motion/react";
 import { useInView } from "react-intersection-observer";
 import Skills from "./Skills";
@@ -26,10 +26,10 @@ const Work = () => {
     },
    {
       id: 3,
-      title: "Hospital Management System",
+      title: "Employee Management System",
       decription:
-        "A full-stack web application to manage hospital operations including patient registration, doctor appointments, and admin control. Built using Django, React, and JWT authentication.",
-      image: project3,
+       "A full-stack Employee Management System that performs CRUD operations such as adding, updating, viewing, and deleting employee records. Developed using Spring Boot REST API for backend services and React for a dynamic frontend interface.",
+      image:project3,
       link: "#",
     },
   ];

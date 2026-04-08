@@ -10,7 +10,7 @@ const Services = () => {
     },
     {
       title: "Full-Stack Development",
-      description: "Building complete web applications using Java stack or Django + React.",
+      description: "Building complete web applications using Java stack and React.",
     },
     {
       title: "API Integration",
@@ -18,7 +18,7 @@ const Services = () => {
     },
     {
       title: "Database Management",
-      description: "Designing and managing SQL and NoSQL databases like MySQL and MongoDB.",
+      description: "Designing and managing SQL databases like MySQL .",
     },
     {
       title: "Technical Documentation",

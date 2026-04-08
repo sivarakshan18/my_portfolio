@@ -161,21 +161,16 @@ const Contact = () => {
               whileFocus={{ scale: 1.02 }}
               className='border border-purple-500 bg-gray-900 p-4 rounded-md'
             />
-            <motion.input
-              type="text"
-              name="budget"
-              placeholder='Budget'
-              whileFocus={{ scale: 1.02 }}
-              className='border border-purple-500 bg-gray-900 p-4 rounded-md'
-            />
-          </div>
-          <motion.textarea
+                      <motion.textarea
             name="message"
             placeholder='Message'
             required
             whileFocus={{ scale: 1.02 }}
             className='border border-purple-500 bg-gray-900 p-4 rounded-md w-full'
           />
+            
+          </div>
+
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
