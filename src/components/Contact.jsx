@@ -63,7 +63,7 @@ const Contact = () => {
           transition={{ delay: 0.1, duration: 0.5 }}
           className='text-4xl font-bold text-white'
         >
-          Let's Discuss Your <span className='text-purple-500'>Projects</span>
+           Let's Start My  <span className='text-purple-500'>Journey</span>
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: -50 }}
@@ -71,7 +71,7 @@ const Contact = () => {
           transition={{ delay: 0.2, duration: 0.5 }}
           className='text-slate-400 mt-4'
         >
-          Let's make something new, different, and more meaningful — more visual or conceptual.
+          Passionate fresher seeking opportunities to learn and grow as a developer.
         </motion.p>
       </div>
 
@@ -219,7 +219,7 @@ const Contact = () => {
         transition={{ delay: 1, duration: 0.5 }}
         className='mt-48 flex flex-col md:flex-row justify-between items-center p-5 text-white border-t-2 border-purple-500'
       >
-        <p>© 2022. All Rights Reserved</p>
+        <p>© 2026. All Rights Reserved</p>
         <p>Siva Coding</p>
         <div className='flex justify-center space-x-4 mt-4 md:mt-0'>
           {[FaFacebook, FaTwitter, FaLinkedin, FaInstagram].map((Icon, i) => (

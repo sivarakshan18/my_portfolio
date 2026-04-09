@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/hero.png";
+import hero from "../assets/photo1.png";
 import { motion } from "framer-motion"; // use 'framer-motion' instead of 'motion/react'
 import { Link } from "react-scroll";
 
